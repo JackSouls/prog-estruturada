@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 void main(){
-    float salario_antigo, salario_novo;
+    float salario_antigo;
 
     //recebe o salario antigo
     printf("Digite o salario antigo: ");
