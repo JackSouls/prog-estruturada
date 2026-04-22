@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 void main(){
-    float salario_antigo;
+    float salario_antigo , salario_novo;
 
     //recebe o salario antigo
     printf("Digite o salario antigo: ");
@@ -10,14 +10,15 @@ void main(){
     //verifica se o salario é maior que 1500
     if (salario_antigo >= 1500){
         //caso o salario seja maior que 1500, faça um reajuste de 10% do valor do salario
-        printf("\nSalario Antigo: %.2f", salario_antigo);
-        printf("\nSalario novo: %.2f", salario_antigo + (salario_antigo*0.1));
-        printf("\nReajuste : 10%%");
+        salario_novo = salario_antigo * 1.1;
     } else {
         //caso seja menor que 1500, aumenta o salario em 20%
-        printf("\nSalario Antigo: %.2f", salario_antigo);
-        printf("\nSalario novo: %.2f", salario_antigo + (salario_antigo*0.2));
-        printf("\nReajuste : 20%%");
+        salario_novo = salario_antigo * 1.2;
     }
+
+    //exibe as informações
+    printf("\nSalario Antigo: %.2f", salario_antigo);
+    printf("\nSalario novo: %.2f", salario_novo);
+    printf("\nReajuste : %.2f", salario_novo - salario_antigo);
 
 }
