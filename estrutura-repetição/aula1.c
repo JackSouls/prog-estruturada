@@ -6,6 +6,7 @@ void main(){
     //sintaxe do for
     //for(valor_inicial; condição de permanencia; incremento){}
 
+    vai imprimir os numeros de 0 a 100 no terminal
     for(i; i<=100; i+=2){
         printf("%d\n", i);
     }*/
