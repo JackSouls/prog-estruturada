@@ -24,6 +24,6 @@ void main(){
     }
 
     for(i = 0; i <10; i++){
-        printf("%d ", b[i]);
+        printf("%d ", 2*b[i]);
     }
 }
