@@ -17,9 +17,13 @@ void main(){
     v[3] = v[2] + 2;
     //v, na posição 3, recebe 8 + 2, v[3] vale 10.
 
-    int b[100], i;
+    int b[10], i;
 
-    for(i = 0; i <100; i++){
+    for(i = 0; i <10; i++){
         scanf("%d", &b[i]);
+    }
+
+    for(i = 0; i <10; i++){
+        printf("%d ", b[i]);
     }
 }
