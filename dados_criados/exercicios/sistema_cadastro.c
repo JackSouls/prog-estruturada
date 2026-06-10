@@ -90,7 +90,7 @@ void main(){
             search_id = 0;
             printf("\nDigite o ID para remoção : ");
             scanf("%d", &search_id);
-
+ 
             for(int i = 0; i < x; i++){
                 if(usr[i].id == search_id)
                     usr[i].status = 0;
@@ -102,7 +102,4 @@ void main(){
         break;
         }
     }
-
-
-
 }
