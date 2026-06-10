@@ -60,6 +60,7 @@ void main(){
         break;
 
         case 3:
+            search_id = 0;
             int flag_found = 0;
 
             printf("\nDigete o ID : ");
